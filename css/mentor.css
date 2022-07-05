@@ -135,16 +135,17 @@
   }
 
   .text-img-step {
-    max-width: 350px;
+    max-width: 400px;
   }
 
   .text-img-step h2 {
     font-weight: bold;
+    color: #1e3869;
     font-size: 33px;
   }
 
   .text-img-step p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
   }
 
