@@ -151,6 +151,12 @@ nav img {
     align-items: center;
     margin-bottom: 30px;
   }
+  
+  
+  .bg-home-who {
+    background-position: inherit;
+  }
+  
   .Circle-img {
     display: flex;
     justify-content: center;
