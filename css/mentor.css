@@ -124,6 +124,10 @@
     flex-direction: column;
     align-items: center;
   }
+      
+        .bg-home-who {
+    background-position: inherit;
+  }
   }
 
   .img-step img {
