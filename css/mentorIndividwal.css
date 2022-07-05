@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+  overflow-x: hidden;
+  background-color: #f7f7f7;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 12px !important;
+  padding-left: 12px !important;
+  /* padding-right: 2rem;
+  padding-left: 2rem; */
+}
+
+nav {
+  background-color: #e0e0e0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #294f96;
+}
+
+nav img {
+  margin-left: 30px;
+  width: 150px;
+}
+
+.icon-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-nav i:not(:last-child) {
+  margin-right: 20px;
+}
+
+.icon-nav i {
+  font-size: 20px;
+  color: #1e3869;
+}
+
+.dropdown-menu[data-bs-popper] {
+  top: 100%;
+  left: -55px;
+  margin-top: 0.125rem;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+}
+.btn-secondary:focus {
+  outline: none;
+  border: none;
+}
+.btn-secondary:hover {
+  background-color: rgba(192, 192, 192, 0.822);
+}
+/*End Nav  */
+
+/* start section mentor individuwal */
+.details-all {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+  margin: 50px 0;
+  padding: 20px;
+}
+
+.img-text-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.text-details {
+  max-width: 800px;
+}
+
+.text-details h4 {
+  color: #3fb2ca;
+  margin: 20px 0 15px;
+}
+
+.text-details h3 {
+  font-weight: bold;
+}
+
+.text-details h5{
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.656);
+}
+
+.text-details p {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.btn-details button {
+  background-color: white;
+  color: #ff955d;
+  padding: 5px;
+  width: 140px;
+  border-radius: 20px;
+  border: none;
+  transition: all 0.5s;
+}
+
+.btn-details button:hover {
+  background-color: #ff955d;
+  color: white;
+}
+
+.btn-details button:nth-child(1) {
+  background-color: #ff955d;
+  color: white;
+}
+
+.btn-details button:nth-child(1):hover {
+  background-color: white;
+  color: #ff955d;
+}
+
+.btn-details {
+  display: flex;
+  gap: 10px;
+  /* justify-content: center; */
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.stars h2 {
+  color: #ffcd3c;
+  font-size: 22px;
+}
+
+.stars i {
+  font-size: 20px;
+  color: #ffcd3c;
+}
+
+.average-rate-all i {
+  color: silver;
+  margin: 5px 0 10px;
+}
+
+.average-rate-all {
+  background-color: #f4f4f4;
+  padding: 20px 5px;
+}
+
+
+
+.all-display {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 200px;
+  /* align-items: center; */
+}
+
+.Overview-text {
+  display:block;
+
+}
+
+.enwan-rating {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  margin-bottom: 20px;
+}
+
+.enwan-rating h3 {
+  border-bottom: 2px solid #f4f4f4;
+  cursor: pointer;
+  position: relative;
+}
+
+.enwan-rating h3::before {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #1e3869;
+  position: absolute;
+  bottom: -2.5px;
+  left: 0;
+  transition: all 0.5s;
+}
+
+.enwan-rating h3:hover:before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #1e3869;
+  position: absolute;
+  bottom: -2.5px;
+  left: 0;
+}
+
+.Benefits-text {
+  display: none;
+}
+
+.Overview-text {
+  display: none;
+}
+
+
+@media (max-width: 991px) {
+  .details-all {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .img-text-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .btn-details {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .enwan-rating {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .all-display {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 50px;
+    /* align-items: center; */
+  }
+}
+/* end section mentor individuwal */
+
+/* start footer */
+footer {
+  background-color: #cfd2d8;
+  padding: 20px 0;
+  color: white;
+}
+.foot-All {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.foot-All a {
+  text-decoration: none;
+  color: white;
+}
+
+.foot-All a:hover {
+  color: #27498a;
+}
+
+.foot-All h2 {
+  color: #1e3869;
+}
+.foot-All h4 {
+  color: #1e3869;
+}
+.About-Foot a {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.LOGO-FOOT {
+  text-align: center;
+}
+
+.LOGO-FOOT a:not(:last-child) {
+  margin-right: 10px;
+}
+
+.LOGO-FOOT i:hover {
+  cursor: pointer;
+  color: #294f96;
+}
+
+.khat-foot {
+  background-color: #1e3869;
+  width: 100%;
+  height: 1px;
+}
+
+.txt-under-foot {
+  text-align: center;
+  color: #1e3869;
+}
+
+.txt-under-foot p {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+@media (max-width: 991px) {
+  .Contact-Us-Foot {
+    text-align: center;
+  }
+  .About-Foot {
+    text-align: center;
+  }
+  .Follow-Us-Foot {
+    text-align: center;
+  }
+  .English {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .foot-All {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+
+  .Contact-Us-Foot {
+    text-align: left;
+  }
+  .About-Foot {
+    text-align: left;
+  }
+  .Follow-Us-Foot {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .LOGO-FOOT {
+    text-align: left;
+  }
+  .English {
+    text-align: left;
+  }
+}
+/* end footer */
