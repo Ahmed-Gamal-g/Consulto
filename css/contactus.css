@@ -80,6 +80,12 @@ nav img {
   align-items: flex-end;
 }
 
+@media(max-width:767px){
+  .section-Get-touch {
+    background-position: inherit;
+  }
+}
+
 .text-Get-touch {
   text-align: center;
 }
